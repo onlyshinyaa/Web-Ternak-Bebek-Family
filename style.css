@@ -1,0 +1,35 @@
+body {
+    padding-top: 56px; /* Height of the navbar */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.jumbotron {
+    padding: 4rem 2rem;
+    margin-bottom: 0;
+    background-color: hsl(199, 93%, 59%);
+    background-image: url('https://via.placeholder.com/1920x1080.png?text=Latar+Belakang+Peternakan');
+    background-size: cover;
+    background-position: center;
+    color: rgb(0, 255, 251);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.jumbotron .container {
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 2rem;
+    border-radius: 15px;
+}
+
+#products .card {
+    transition: transform 0.2s;
+}
+
+#products .card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 20px rgba(0,0,0,.12);
+}
+
+#contact ul li {
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+} 
